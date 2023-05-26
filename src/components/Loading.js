@@ -7,3 +7,12 @@ import React from 'react';
  *   <h2 className="message">Searching...</h2>
  * </div>
  */
+function Loading(props) {
+  return (
+    <div id="loading">
+      <h2 className="message">Searching...</h2>
+    </div>
+  );
+}
+export default Loading;
+ 
